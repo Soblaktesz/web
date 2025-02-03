@@ -1,6 +1,4 @@
-header{
-    background-color: black;
-}
+
 nav{
    background-color: orange;
   
@@ -9,5 +7,5 @@ nav{
     
 }
 h1{
-    margin: 0 auto;
+    background-color: black;
 }
