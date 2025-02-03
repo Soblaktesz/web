@@ -1,12 +1,23 @@
 
-nav{
-   background-color: orange;
-  
-    width: 80%;
-    margin-top: auto;
-    
-}
-h1{
-    background-color: black;
+.header {
+    display: flex;
     align-items: center;
-}
+    justify-content: flex-start;
+  }
+  
+  .header .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .nav {
+    font-size: 18px;
+    color: orange;
+    text-decoration: none; 
+    padding: 10px;
+  }
+  
+  .nav:hover {
+    color: yellow;
+  }
