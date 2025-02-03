@@ -3,4 +3,8 @@ main{
 }
 nav{
    background-color: orange;
+  
+    width: 80%;
+    margin: 0 auto;
+    
 }
