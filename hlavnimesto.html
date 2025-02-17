@@ -1,12 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>hlavnimesto</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hlavní město Švýcarska - Bern</title>
+    <style>
+        body {
+            background-image: url('https://via.placeholder.com/1920x1080'); /* Pozadí, nahraď odkazem na vlastní obrázek */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 20px 50px;
+            border-radius: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .content div {
+            flex: 1;
+            min-width: 300px;
+        }
+    </style>
 </head>
 <body>
-    <header><h1>hlavni mesto</h1></header>
+
+<header>
+    <h1>Hlavní město Švýcarska - Bern</h1>
+    <p>Historie, památky a krása Bernu</p>
+</header>
+
+<section>
+    <h2>Úvod do Bernu</h2>
+    <p>Bern je hlavní město Švýcarska a jedním z nejkrásnějších měst v zemi. Nachází se v srdci Švýcarska a je známé svou bohatou historií, krásnou architekturou a malebnými ulicemi.</p>
+    <div class="content">
+        <div>
+            <img src="https://via.placeholder.com/600x400" alt="Bern - Historie">
+            <p>Historie Bernu sahá až do 12. století, kdy bylo město založeno.</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/600x400" alt="Bern - Zámek">
+            <p>V Bernu najdete mnoho historických památek, včetně známého Bernského zámku.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Památky a zajímavosti</h2>
+    <p>Bern je domovem mnoha historických a kulturních památek, včetně starého města, které je zapsáno na seznamu světového dědictví UNESCO.</p>
+    <div class="content">
+        <div>
+            <img src="https://via.placeholder.com/600x400" alt="Bern - Zahrady">
+            <p>Berner Zahrady jsou ideálním místem pro relaxaci s krásným výhledem na město.</p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/600x400" alt="Bern - Hodinová věž">
+            <p>Hodinová věž (Zytglogge) je jednou z nejznámějších památek města.</p>
+        </div>
+    </div>
+</section>
+
+<footer style="text-align: center; padding: 20px; background-color: rgba(0, 0, 0, 0.7);">
+    <p>&copy; 2025 Informace o Bernu</p>
+</footer>
+
 </body>
 </html>
