@@ -67,17 +67,3 @@ nav a:hover {
   background-color: #FFD700;
   color: black;
 }
-
-  p {
-  background-color: black;
-  background-size: cover;
-  font-family: Arial, sans-serif;
-  color: white;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ensures the body takes full height of the viewport */
-  text-align: center; /* Centers text horizontally */
-  }
